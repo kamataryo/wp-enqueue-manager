@@ -64,7 +64,7 @@ And, run `register_styles`.
 ```php
 // Register all css in folder.
 // e.g. /assets/css/sample.css will be regsitered as 'my-sample'.
-Hametuha\WpEnqueueManager::register_styles( __DIR__ . '/assets/, 'my-', '1.0.0' );
+Hametuha\WpEnqueueManager::register_styles( __DIR__ . '/assets/', 'my-', '1.0.0' );
 ```
 
 ### Versionning
@@ -111,4 +111,4 @@ $('.button').on('click', function(){
 
 ## License
 
-MIT.
+MIT. 
